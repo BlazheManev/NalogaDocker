@@ -17,7 +17,8 @@ cd backend
 3. docker-compose up --build
 You can also find the images here https://hub.docker.com/repositories/blazhe
 
-or without the docker npm start
+or without the docker 
+1. npm start
 
 
 

@@ -6,7 +6,9 @@ const carRoutes = require('./routes/CarRoutes'); // Import your Car routes
 const swaggerJSDoc = require('swagger-jsdoc');
 const swaggerUi = require('swagger-ui-express');
 const swaggerDefinition = require('./swaggerDef'); // Update with the correct path
+var cors = require('cors')
 
+app.use(cors())
 app.use(express.json()); // for parsing JSON data
 app.use(express.urlencoded({ extended: true })); // for parsing URL-encoded data
 

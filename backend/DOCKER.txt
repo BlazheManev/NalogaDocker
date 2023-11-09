@@ -1,0 +1,10 @@
+1.docker build -t blazhe/express-sua:v1  . 
+
+2.docker build -t blazhe/baza-sua:v1 bazaDocker. 
+
+3.docker push blazhe/express-sua:v1
+
+4.docker push blazhe/baza-sua:v1
+
+5.docker-compose up --build         
+

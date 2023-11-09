@@ -12,7 +12,7 @@ Before running the application, make sure you have [Docker](https://www.docker.c
 cd backend
 1.docker build -t blazhe/express-sua:v2  . 
 
-2.docker build -t blazhe/baza-sua:v1 bazaDocker. 
+2. docker build -t blazhe/baza-sua:v1 bazaDocker. 
 
 3. docker-compose up --build
 You can also find the images here https://hub.docker.com/repositories/blazhe

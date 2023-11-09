@@ -26,14 +26,14 @@ or without the docker
 Navigate to the frontend directory:
 
 
-cd frontend
+1. cd frontend
 Install the frontend dependencies:
 
-npm install
+2. npm install
 Start the React development server:
 
 
-npm start
+3.npm start
 The frontend UI will be accessible at http://localhost:3001.
 
 API Documentation
